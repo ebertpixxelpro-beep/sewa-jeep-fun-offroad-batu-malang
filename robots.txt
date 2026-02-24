@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Priority crawl pages
+Allow: /index.html
+Allow: /blog-rute-terbaik.html
+Allow: /blog-tips-persiapan.html
+Allow: /blog-wisata-keluarga.html
+Allow: /blog-waktu-terbaik.html
+Allow: /blog-tips-foto.html
+
+# Block unnecessary files
+Disallow: /*.json$
+Disallow: /node_modules/
+
+# Sitemaps
+Sitemap: https://sewajeepbatumaling.com/sitemap.xml
